@@ -1,0 +1,16 @@
+{
+  "name": "Autonomous Code Generator Agent",
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "make",
+  "forwardPorts": [],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools"
+      ]
+    }
+  }
+}

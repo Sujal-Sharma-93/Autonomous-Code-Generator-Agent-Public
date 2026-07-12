@@ -1,0 +1,44 @@
+# Build files
+build/
+*.o
+*.exe
+*.out
+*.obj
+a.out
+
+# Temp files (generated C code)
+temp/
+*.tmp
+
+# API keys / secrets (CRITICAL)
+.env
+.env.local
+.env.txt
+*.key
+api_key.txt
+!.env.example
+
+# Test files
+tests/
+test.json
+test_*
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Models / data
+models.json
+
+# Misc
+-d
+report.md
