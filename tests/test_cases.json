@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Test with basic string",
+        "input": "hello",
+        "expected_output": "olleh\n"
+    },
+    {
+        "name": "Test with string containing spaces",
+        "input": "hello world",
+        "expected_output": "dlrow olleh\n"
+    },
+    {
+        "name": "Test with special characters",
+        "input": "abc123!@#",
+        "expected_output": "#@!321cba\n"
+    },
+    {
+        "name": "Test with empty string",
+        "input": "",
+        "expected_output": "\n"
+    },
+    {
+        "name": "Test with single character",
+        "input": "a",
+        "expected_output": "a\n"
+    },
+    {
+        "name": "Test with numbers as string",
+        "input": "12345",
+        "expected_output": "54321\n"
+    },
+    {
+        "name": "Test with palindrome",
+        "input": "racecar",
+        "expected_output": "racecar\n"
+    }
+]

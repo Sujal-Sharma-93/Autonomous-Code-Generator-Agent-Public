@@ -7,7 +7,8 @@ build/
 a.out
 
 # Temp files (generated C code)
-temp/
+temp/*
+!temp/.gitkeep
 *.tmp
 
 # API keys / secrets (CRITICAL)
@@ -20,6 +21,7 @@ api_key.txt
 
 # Test files
 tests/
+!tests/test_cases.json
 test.json
 test_*
 
